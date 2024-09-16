@@ -86,9 +86,10 @@ public class CrawlerTest {
             //3.封装进实体类中
             Picture picture = new Picture();
             picture.setTitle(title);
-            picture.setUrl(url);
+            picture.setUrl(murl);
             pictures.add(picture);
         }
+        System.out.println(pictures);
 //        Elements newsHeadlines = doc.select("#mp-itn b a");
 //        for (Element headline : newsHeadlines) {
 //
